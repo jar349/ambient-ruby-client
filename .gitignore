@@ -1,0 +1,5 @@
+/coverage/
+/vendor/gems
+
+# rspec failure tracking
+.rspec_status

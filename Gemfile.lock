@@ -1,0 +1,81 @@
+PATH
+  remote: .
+  specs:
+    ambient-ruby-client (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    diff-lcs (1.5.1)
+    docile (1.4.1)
+    io-console (0.7.2)
+    irb (1.14.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    json (2.7.2)
+    language_server-protocol (3.17.0.3)
+    parallel (1.26.3)
+    parser (3.3.4.2)
+      ast (~> 2.4.1)
+      racc
+    psych (5.1.2)
+      stringio
+    racc (1.8.1)
+    rainbow (3.1.1)
+    rdoc (6.7.0)
+      psych (>= 4.0.0)
+    regexp_parser (2.9.2)
+    reline (0.5.9)
+      io-console (~> 0.5)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    rubocop (1.66.0)
+      json (~> 2.3)
+      language_server-protocol (>= 3.17.0)
+      parallel (~> 1.10)
+      parser (>= 3.3.0.2)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 2.4, < 3.0)
+      rubocop-ast (>= 1.32.1, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.32.1)
+      parser (>= 3.3.1.0)
+    ruby-progressbar (1.13.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-erb (1.0.1)
+      simplecov (< 1.0)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    stringio (3.1.1)
+    unicode-display_width (2.5.0)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  ambient-ruby-client!
+  irb (~> 1.14)
+  rspec (~> 3.0)
+  rubocop (~> 1.21)
+  simplecov (~> 0.22.0)
+  simplecov-erb (~> 1.0)
+
+BUNDLED WITH
+   2.5.9
