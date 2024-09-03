@@ -1,5 +1,7 @@
 /coverage/
 /vendor/gems
+/pkg
+/bin
 
 # rspec failure tracking
 .rspec_status

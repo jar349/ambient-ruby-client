@@ -23,6 +23,7 @@ GEM
       stringio
     racc (1.8.1)
     rainbow (3.1.1)
+    rake (13.2.1)
     rdoc (6.7.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
@@ -72,6 +73,7 @@ PLATFORMS
 DEPENDENCIES
   ambient-ruby-client!
   irb (~> 1.14)
+  rake (~> 13.2)
   rspec (~> 3.0)
   rubocop (~> 1.21)
   simplecov (~> 0.22.0)
