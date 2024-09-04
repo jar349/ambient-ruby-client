@@ -2,6 +2,6 @@
 /vendor/gems
 /pkg
 /bin
-
+/.bundle
 # rspec failure tracking
 .rspec_status

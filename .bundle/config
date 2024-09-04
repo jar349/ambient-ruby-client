@@ -1,4 +1,0 @@
----
-BUNDLE_CACHE_PATH: "vendor/gems"
-BUNDLE_PATH: "vendor/gems"
-BUNDLE_BIN: "bin"
