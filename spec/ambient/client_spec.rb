@@ -11,7 +11,23 @@ RSpec.describe Ambient::Client do
         "macAddress": "00:00:00:00:00:00",
         "info": {
           "name": "My Weather Station",
-          "location": "Home"
+          "coords": {
+            "coords": {
+              "lat": 0.000,
+              "lon": 0.000
+            },
+            "address": "999 Fake St, Faketown, UR 55555, USA",
+            "location": "Faketown",
+            "elevation": "",
+            "geo": {
+              "type": "Point",
+              "coordinates":
+              [
+                  -0.0,
+                  0.0
+              ]
+            }
+          }
         },
         "lastData": {
           "dateutc": 1515436500000,

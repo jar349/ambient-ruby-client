@@ -41,8 +41,8 @@ module Ambient
     end
 
     def device_data(device_mac_address, end_date: nil, limit: 288)
-      path = "devices/macAddress"
-      params = {macAddress: device_mac_address, endDate: end_date, limit: }
+      path = "devices/#{device_mac_address}"
+      params = {endDate: end_date, limit: }
 
       begin
         response = _get(path, @config, params: )
