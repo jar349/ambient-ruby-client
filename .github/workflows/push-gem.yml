@@ -25,9 +25,11 @@ jobs:
           ruby-version: ruby
 
       - name: Debug git diff
-        run: echo "git diff --exit-code is: $(git diff --exit-code)"
+        run: |
+          echo "git diff --exit-code is: $(git diff --exit-code)"
       - name: Debug git diff-index
-        run: echo "git diff-index --quiet --cached HEAD is: $(git diff-index --quiet --cached HEAD)"
+        run: |
+          echo "git diff-index --quiet --cached HEAD is: $(git diff-index --quiet --cached HEAD)"
 
       # Release
       - uses: rubygems/release-gem@v1
